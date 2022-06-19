@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.shadows-into-light-font {
+    font-family: 'Shadows Into Light', serif;
+    font-size: 1.50rem;
+}
+
+#project-card {
+    color: white;
+    width: 25rem;
+    max-width: 25rem;
+    height: 33rem;
+    max-height: 33rem;
+    background-color: #212529;
+}
+
+.project-image{
+    height: 15rem;
+}

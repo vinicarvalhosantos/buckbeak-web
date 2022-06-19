@@ -1,0 +1,36 @@
+{
+  "home": "Home",
+  "shop": "Shop",
+  "language": "Language",
+  "aboutme": {
+    "title": "About me",
+    "content": "Hello! That guy up there is me :). Well, my name is Vinicius and I am a \"program boy\" since 2019, but all my interested in this beautiful work area comes since I'm young, when I had my own Minecraft server, all begins with me just editing some YAML files, but with time I got limited in terms of the functionality to my server, then after a little google time I found a plugin called \"Skript\" that lets me create mini plugins to my server, the logical structure of it was pretty similar to Python's, but after a while the same problem comes to me, Skript it was really good, but again I got limited with the functionalities, then I decided to learn Java and started to do my own plugin and that's when I fell in love with language and with development."
+  },
+  "projects": {
+    "title": "Projects",
+    "buckbeakweb": {
+      "title": "Buckbeak Web",
+      "tech": "React",
+      "content": "This project was created with intention to use as a potfolio for me, in this project I'm using the React library with Typescript and to the language switcher I'm using i18next library.",
+      "moreinfo": "More informations in the links bellow",
+      "github": "Github",
+      "documentation": "Demonstration"
+    },
+    "naginiapi": {
+      "title": "Nagini Api",
+      "tech": "Golang",
+      "content": "This project was created with the intention of simulating a real e-commerce API scenario, it was used the teconology Golang with the framework Fiber and to save datas, it was used the MySQL.",
+      "moreinfo": "More informations in the links bellow",
+      "github": "Github",
+      "documentation": "Documentation"
+    },
+    "naginiweb": {
+      "title": "Nagini Web",
+      "tech": "React",
+      "content": "This project was created with the intention of simulating a real e-commerce, it was used React library with Typescript.",
+      "moreinfo": "More informations in the links bellow",
+      "github": "Github",
+      "documentation": "Demonstration"
+    }
+  }
+}

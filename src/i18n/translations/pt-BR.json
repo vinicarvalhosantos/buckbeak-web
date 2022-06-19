@@ -1,0 +1,36 @@
+{
+  "home": "Inicio",
+  "shop": "Loja",
+  "language": "Linguagem",
+  "aboutme": {
+    "title": "Sobre mim",
+    "content": "Olá! Esse cara ai de cima sou eu :). Bem, me chamo Vinicius e sou \"garoto de programa\" desde 2019, mas meu interesse pela area da tecnologia vem desde pequeno, quando eu tinha meu próprio servidor de Minecraft, de inicio eu mexia somente com arquivos YAML, porém com o tempo me senti limitado com as funções que queria no meu servidor, foi ai então que eu conheci o plugin \"Skript\", nele eu conseguia criar mini plugins que havia uma estrutura lógica bem semelhante ao do Python, porém novamente a limitação de funções me pareceu, decidi então aprender Java e foi ai me apaixonei pela linguagem e pela area de desenvolvimento."
+  },
+  "projects": {
+    "title": "Projetos",
+    "buckbeakweb": {
+      "title": "Buckbeak Web",
+      "tech": "React",
+      "content": "Este projeto foi criado com o intuito de ser o meu portfolio, nele foi usado a biblioteca React em conjunto com Typescript e para realizar a troca de linguagens foi usado a biblioteca i18next.",
+      "moreinfo": "Mais informações nos links abaixo",
+      "github": "Github",
+      "documentation": "Demonstração"
+    },
+    "naginiapi": {
+      "title": "Nagini Api",
+      "tech": "Golang",
+      "content": "Este projeto foi criado com o intuito de simular um cenário real de uma API para e-commerce, nele foi usado a tecnologia Golang juntamente com o framework Fiber e para armazenar os dados foi utilizado MySQL.",
+      "moreinfo": "Mais informações nos links abaixo",
+      "github": "Github",
+      "documentation": "Documentação"
+    },
+    "naginiweb": {
+      "title": "Nagini Web",
+      "tech": "React",
+      "content": "Este projeto foi criado com o intuito de simular um cenário real de um e-commerce, nele foi usado a biblioteca React em conjunto com o Typescript.",
+      "moreinfo": "Mais informações nos links abaixo",
+      "github": "Github",
+      "documentation": "Demonstração"
+    }
+  }
+}

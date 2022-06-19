@@ -1,0 +1,15 @@
+#profile-image {
+    max-width: 10rem;
+    max-height: 15rem;
+    padding-bottom: 1rem;
+}
+
+.content-paragraph {
+    text-indent: 1em;
+    text-align: justify;
+}
+
+#aboutme-card {
+    width: fit-content;
+    height: fit-content;
+}
