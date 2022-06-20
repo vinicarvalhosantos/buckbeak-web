@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 .react-flag-button-select {
     color: white;
 }
 
 .react-flag-select {
     color: #343a40;
+}
+
+.my-name {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.50rem;
+    margin-top: -1.5rem;
 }

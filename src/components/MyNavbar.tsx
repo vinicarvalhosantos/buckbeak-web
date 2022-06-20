@@ -26,7 +26,7 @@ function MyNavbar() {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="/">Vinicius Santos</Navbar.Brand>
+                <Navbar.Brand className={'my-name'}>Vinicius Santos </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.footer {
+    background-color: #212529;
+    margin-top: 3rem;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.my-name {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.50rem;
+    flex: 0;
+    padding-top: 2rem;
+    margin-bottom: -.3rem;
+}
+
+.copyright{
+    flex: 1;
+    padding-bottom: 1rem;
+}

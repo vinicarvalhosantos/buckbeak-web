@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b993676d.css",
+    "main.js": "/static/js/main.af827850.js",
+    "static/media/foto-vinicius.jpg": "/static/media/foto-vinicius.27850b5a84b1be901e3b.jpg",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.b993676d.css",
+    "static/js/main.af827850.js"
+  ]
+}

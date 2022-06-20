@@ -20,26 +20,30 @@ function Projects() {
                             <Grid key={project.name} item>
                                 <Card id={"project-card"}>
                                     <Card.Img variant="top" className={"project-image"} src={project.image}/>
-                                    <Card.Body>
-                                        <Card.Title>
+                                    <Card.Body id={'card-body'}>
+                                        <div>
+                                            <Card.Title>
                                         <span
                                             className={'shadows-into-light-font'}>{t(`projects.${project.name}.title`)} </span>
-                                            <Badge bg="secondary">{t(`projects.${project.name}.tech`)}</Badge>
-                                        </Card.Title>
+                                                <Badge bg="secondary">{t(`projects.${project.name}.tech`)}</Badge>
+                                            </Card.Title>
 
-                                        <Card.Text>
-                                            {t(`projects.${project.name}.content`)}
-                                        </Card.Text>
+                                            <Card.Text id={'card-content'}>
+                                                {t(`projects.${project.name}.content`)}
+                                            </Card.Text>
+                                        </div>
 
-                                        <Card.Text>
-                                            {t(`projects.${project.name}.moreinfo`)}
-                                        </Card.Text>
+                                        <div>
+                                            <Card.Text>
+                                                {t(`projects.${project.name}.moreinfo`)}
+                                            </Card.Text>
 
-                                        <Card.Link href={project.github}
-                                                   target={'_blank'}>{t(`projects.${project.name}.github`)}</Card.Link>
+                                            <Card.Link href={project.github}
+                                                       target={'_blank'}>{t(`projects.${project.name}.github`)}</Card.Link>
 
-                                        <Card.Link href={project.documentation}
-                                                   target={'_blank'}>{t(`projects.${project.name}.documentation`)}</Card.Link>
+                                            <Card.Link href={project.documentation}
+                                                       target={'_blank'}>{t(`projects.${project.name}.documentation`)}</Card.Link>
+                                        </div>
                                     </Card.Body>
                                 </Card>
                             </Grid>
