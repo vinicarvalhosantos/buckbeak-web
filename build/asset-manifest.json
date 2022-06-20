@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.b993676d.css",
-    "main.js": "/static/js/main.af827850.js",
+    "main.css": "/static/css/main.5343f1d5.css",
+    "main.js": "/static/js/main.9f8f0798.js",
     "static/media/foto-vinicius.jpg": "/static/media/foto-vinicius.27850b5a84b1be901e3b.jpg",
-    "index.html": "/index.html"
+    "index.html": "/index.html",
+    "main.5343f1d5.css.map": "/static/css/main.5343f1d5.css.map",
+    "main.9f8f0798.js.map": "/static/js/main.9f8f0798.js.map"
   },
   "entrypoints": [
-    "static/css/main.b993676d.css",
-    "static/js/main.af827850.js"
+    "static/css/main.5343f1d5.css",
+    "static/js/main.9f8f0798.js"
   ]
 }
