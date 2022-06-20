@@ -19,6 +19,7 @@ function Projects() {
                         {projects.map((project) => (
                             <Grid key={project.name} item>
                                 <Card id={"project-card"}>
+                                    {console.log(project.image)}
                                     <Card.Img variant="top" className={"project-image"} src={project.image}/>
                                     <Card.Body id={'card-body'}>
                                         <div>

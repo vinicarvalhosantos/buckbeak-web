@@ -1,19 +1,19 @@
 [
   {
     "name": "buckbeakweb",
-    "image": "http://44.205.216.221/static/media/buckbeak.fe827dbd1e68c833e650.png",
+    "image": "./assets/imgs/buckbeak-web.png",
     "github": "https://github.com/vinicarvalhosantos/buckbeak-web",
     "documentation": "https://google.com"
   },
   {
     "name": "naginiapi",
-    "image": "https://s.yimg.com/ny/api/res/1.2/uprayD81lH53rEoGKk7DFw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM4NA--/https://s.yimg.com/uu/api/res/1.2/DDHtbTyUWHeT6.5k8Vmk0Q--~B/aD05MDA7dz0xNTAwO2FwcGlkPXl0YWNoeW9u/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/43b2a53164a1cd908eed244d43462659",
+    "image": "nagini-api.jpg",
     "github": "https://github.com/vinicarvalhosantos/nagini-api",
     "documentation": "https://google.com"
   },
   {
     "name": "naginiweb",
-    "image": "https://kanto.legiaodosherois.com.br/w760-h398-cfill/wp-content/uploads/2018/10/legiao_Ti89kKHMjc7ngJzL3bNr1wYxhVQyvdlAatRWmq_e2C.jpg.jpeg",
+    "image": "nagini-web.jpeg",
     "github": "https://github.com/vinicarvalhosantos/nagini-web",
     "documentation": "https://google.com"
   }
