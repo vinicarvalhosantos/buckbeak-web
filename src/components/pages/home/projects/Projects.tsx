@@ -46,11 +46,11 @@ function Projects() {
                                             </Card.Text>
 
                                             <Card.Link href={project.github} target={'_blank'}>
-                                                <Button variant="light">{t(`projects.${project.name}.github`)}
+                                                <Button variant="outline-info">{t(`projects.${project.name}.github`)}
                                                 </Button></Card.Link>
 
                                             <Card.Link href={project.documentation} target={'_blank'}>
-                                                <Button variant="light">{t(`projects.${project.name}.documentation`)}
+                                                <Button variant="outline-info">{t(`projects.${project.name}.documentation`)}
                                                 </Button></Card.Link>
                                         </div>
                                     </Card.Body>

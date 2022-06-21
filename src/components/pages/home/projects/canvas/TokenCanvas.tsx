@@ -17,7 +17,7 @@ function TokenCanvas() {
 
     return (
         <Container>
-            <Button variant="secondary" onClick={handleShow} className="me-2 token-button">
+            <Button variant="primary" onClick={handleShow} className="me-2 token-button">
                 {t("projects.tokenbutton")}
             </Button>
             <Offcanvas show={show} onHide={handleShow} placement={'end'}>
