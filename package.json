@@ -1,6 +1,6 @@
 {
-  "name": "nagini-web",
-  "version": "0.1.0",
+  "name": "portfolio-web",
+  "version": "1.0.0-rc1",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
