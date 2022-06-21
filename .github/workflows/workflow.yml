@@ -49,6 +49,6 @@ jobs:
         run: |
           aws deploy create-deployment \
             --application-name portfolio-web \
-            --deployment-group-name AppDeploymentGroupName \
+            --deployment-group-name github-deployment \
             --deployment-config-name CodeDeployDefault.OneAtATime \
             --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
