@@ -12,7 +12,7 @@ function AboutMe() {
             <Row>
                 <Col style={{textAlign: "center"}}>
                     <h1>{t('aboutme.title')}</h1>
-                    <Image id={"profile-image"} src={require("../../../../assets/imgs/foto-vinicius.jpg")}/>
+                    <Image id={"profile-image"} src={"/imgs/foto-vinicius.jpg"}/>
                     <Card id={"aboutme-card"}>
                         <Card.Body>
                             <p className={'content-paragraph'}>{t('aboutme.content')}</p>

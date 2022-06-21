@@ -1,19 +1,19 @@
 [
   {
     "name": "buckbeakweb",
-    "image": "./assets/imgs/buckbeak-web.png",
+    "image": "/imgs/buckbeak-web.png",
     "github": "https://github.com/vinicarvalhosantos/buckbeak-web",
     "documentation": "https://google.com"
   },
   {
     "name": "naginiapi",
-    "image": "nagini-api.jpg",
+    "image": "/imgs/nagini-api.jpg",
     "github": "https://github.com/vinicarvalhosantos/nagini-api",
     "documentation": "https://google.com"
   },
   {
     "name": "naginiweb",
-    "image": "nagini-web.jpeg",
+    "image": "/imgs/nagini-web.jpeg",
     "github": "https://github.com/vinicarvalhosantos/nagini-web",
     "documentation": "https://google.com"
   }
