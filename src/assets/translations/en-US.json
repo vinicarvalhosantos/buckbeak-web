@@ -8,6 +8,20 @@
   },
   "projects": {
     "title": "Projects",
+    "description": "So, that's my projects and I'm proud of each of them! I'm a very Harry Potter's fan guy, sou will be normal see a lot of references of it :). All my API's can be tested by yourself, you just have to get an access token that will be valid for 2 hours by clicking in the button bellow and be free to test any of my API's by clicking on \"documentation\" button.",
+    "tokenbutton": "Access Token",
+    "canvas": {
+      "title": "Get an Access Token",
+      "description": "To get an access token is pretty easy. All you have to do is fill the form bellow and we will send you a token to your e-email, your token will be valid for 2 (two) hours. Don't worry, I won't use your informations for nothing, this is just to keep sure that my API's will not be used other than testing.",
+      "form": {
+        "name": "Your name:",
+        "nameplaceholder": "Enter with your name",
+        "email": "Email:",
+        "emailplaceholder": "Enter with your email",
+        "notemailsharing": "We'll never share your email with anyone else.",
+        "submit": "Submit"
+      }
+    },
     "buckbeakweb": {
       "title": "Buckbeak Web",
       "tech": "React",

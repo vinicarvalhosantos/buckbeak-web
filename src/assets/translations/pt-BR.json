@@ -8,6 +8,20 @@
   },
   "projects": {
     "title": "Projetos",
+    "tokenbutton": "Token de Acesso",
+    "description": "Bem, estes são todos os meus projetos, e tenho muito orgulho deles, pois em cada um aprendi novas coisas. Eu sou muito fã de Harry Potter, então é normal encontrar algumas referencias pelos projetos. Caso queira, todas as minhas APIs podem ser testadas ao clicar em \"Documentação\", basta obter um token de acesso que será válido por 2 horas clicando no botão abaixo e desbravar o mundo das APIs :).",
+    "canvas": {
+      "title": "Obter um Token de Acesso",
+      "description": "Para pegar o seu token de acesso é bem fácil, basta você preencher o form a baixo e enviaremos um token para seu e-mail, ele será válido por 2 (duas) horas e te dará acesso à todas as minhas APIs, mas não se preocupe, o seus dados inserido não serão usados para nada, é apenas manter um controle e não permitir que minha API fique aberta para todos que quiserem usa-la de maneiras incorretas :).",
+      "form": {
+        "name": "Seu nome:",
+        "nameplaceholder": "Insira seu nome",
+        "email": "Email:",
+        "emailplaceholder": "Insira seu email",
+        "notemailsharing": "Nunca vamos compartilhar seu e-mail com ninguém.",
+        "submit": "Enviar"
+      }
+    },
     "buckbeakweb": {
       "title": "Buckbeak Web",
       "tech": "React",

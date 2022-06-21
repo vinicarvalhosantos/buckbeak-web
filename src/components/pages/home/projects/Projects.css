@@ -20,6 +20,15 @@
     justify-content: space-between;
 }
 
+.token-button {
+    float: right;
+}
+
 .project-image {
     height: 15rem;
+}
+
+.project-description{
+    text-indent: 1.5em;
+    text-align: justify;
 }

@@ -1,25 +1,31 @@
 import React from 'react';
-import {Badge, Card, Container} from 'react-bootstrap';
+import {Badge, Button, Card, Container} from 'react-bootstrap';
 import './Projects.css';
 import '../../../../i18n/config';
 import {useTranslation} from "react-i18next";
 import projects from "../../../../assets/projects/projects.json"
 import {Grid} from "@mui/material";
+import TokenCanvas from "./canvas/TokenCanvas";
 
 function Projects() {
 
     const {t} = useTranslation()
 
+
     return (
         <Container>
             <h1 style={{textAlign: "center"}}>{t('projects.title')}</h1>
+
+            <p className={'project-description'}>{t("projects.description")}</p>
+
+            <TokenCanvas/>
+
             <Grid sx={{flexGrow: 1}} container spacing={4}>
                 <Grid item xs={12}>
                     <Grid container justifyContent="center" spacing={4}>
                         {projects.map((project) => (
                             <Grid key={project.name} item>
                                 <Card id={"project-card"}>
-                                    {console.log(project.image)}
                                     <Card.Img variant="top" className={"project-image"} src={project.image}/>
                                     <Card.Body id={'card-body'}>
                                         <div>
@@ -39,11 +45,13 @@ function Projects() {
                                                 {t(`projects.${project.name}.moreinfo`)}
                                             </Card.Text>
 
-                                            <Card.Link href={project.github}
-                                                       target={'_blank'}>{t(`projects.${project.name}.github`)}</Card.Link>
+                                            <Card.Link href={project.github} target={'_blank'}>
+                                                <Button variant="light">{t(`projects.${project.name}.github`)}
+                                                </Button></Card.Link>
 
-                                            <Card.Link href={project.documentation}
-                                                       target={'_blank'}>{t(`projects.${project.name}.documentation`)}</Card.Link>
+                                            <Card.Link href={project.documentation} target={'_blank'}>
+                                                <Button variant="light">{t(`projects.${project.name}.documentation`)}
+                                                </Button></Card.Link>
                                         </div>
                                     </Card.Body>
                                 </Card>
