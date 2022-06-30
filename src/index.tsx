@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import MyNavbar from "./components/MyNavbar";
 import Footer from "./components/Footer";
+import Projects from "./components/pages/home/projects/Projects";
 
 
 function Index() {
@@ -15,8 +16,11 @@ function Index() {
             <MyNavbar/>
             <Routes>
                 <Route path="/" element={<App/>}/>
+                <Route path="/projects" element={<Projects/>}/>
             </Routes>
-            <Footer/>
+            <div id={'footer'}>
+                <Footer/>
+            </div>
         </BrowserRouter>
     )
 }

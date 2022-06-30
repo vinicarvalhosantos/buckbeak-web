@@ -31,6 +31,7 @@ function MyNavbar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/">{t('home')}</Nav.Link>
+                        <Nav.Link href="/projects">{t('projects.title')}</Nav.Link>
                     </Nav>
                     <Nav>
                         <ReactFlagsSelect

@@ -1,5 +1,4 @@
 import React from 'react';
-import Projects from "./projects/Projects";
 import AboutMe from "./about/AboutMe";
 
 function Home() {
@@ -9,7 +8,6 @@ function Home() {
         <>
             <AboutMe/>
             <hr/>
-            <Projects/>
         </>
     )
 

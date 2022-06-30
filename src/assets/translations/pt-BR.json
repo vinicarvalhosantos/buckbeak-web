@@ -30,6 +30,14 @@
       "github": "Github",
       "documentation": "Demonstração"
     },
+    "naginiweb": {
+      "title": "Nagini Web",
+      "tech": "React",
+      "content": "Este projeto foi criado com o intuito de simular um cenário real de um e-commerce, nele foi usado a biblioteca React em conjunto com o Typescript.",
+      "moreinfo": "Mais informações nos links abaixo",
+      "github": "Github",
+      "documentation": "Demonstração"
+    },
     "naginiapi": {
       "title": "Nagini Api",
       "tech": "Golang",
@@ -38,13 +46,37 @@
       "github": "Github",
       "documentation": "Documentação"
     },
-    "naginiweb": {
-      "title": "Nagini Web",
-      "tech": "React",
-      "content": "Este projeto foi criado com o intuito de simular um cenário real de um e-commerce, nele foi usado a biblioteca React em conjunto com o Typescript.",
+    "fawkesapi": {
+      "title": "Fawkes Api",
+      "tech": "Golang",
+      "content": "Este projeto foi criado com o intuito de realizar uma conversão de sistema de pontos da plataforma de streaming Twitch para outro sistema de pontos da plataforma StreamElements, nele esta sendo usado a tecnologia Golang em conjunto com o framework Fiber e para o armazenamento de dados o MySQL.",
       "moreinfo": "Mais informações nos links abaixo",
       "github": "Github",
-      "documentation": "Demonstração"
+      "documentation": "Documentação"
+    },
+    "marvelapi": {
+      "title": "Marvel Api",
+      "tech": "Java",
+      "content": "Este projeto foi criado com o intuito de um teste tecnico para uma avaliação de uma vaga, nele o objetivo era de restaurar os endpoints deletado pelo Tanos, foi utilizado a tecnologia Java em conjunto com o framework SpringBoot, para a armazenamento de dados foi utilizado o MySQL.",
+      "moreinfo": "Mais informações nos links abaixo",
+      "github": "Github",
+      "documentation": "Documentação"
+    },
+    "nonsfwcontentapi": {
+      "title": "No NSW Content Api",
+      "tech": "NestJs",
+      "content": "Este projeto foi criado com o intuito de servir como uma api para análise de imagens enviadas por um bot da plataforma de comunicação Discord com o objetivo de indicar se é um conteúdo pornográfico ou não, nele foi utilizado o framework NestJs typeORM.",
+      "moreinfo": "Mais informações nos links abaixo",
+      "github": "Github",
+      "documentation": "Documentação"
+    },
+    "nonsfwcontentapiplus": {
+      "title": "No NSW Content Api+",
+      "tech": "Java",
+      "content": "Este projeto foi criado com o intuito de servir como uma api para um bot da plataforma de comunicação do Discord, ele é um complemento para que as configurações de cada \"guilda\"(servidor) seja armazenada e para compartilhamento de informações em guildas sobre usuários banidos por enviar conteudo NSFW. Nele foi utilizado a tecnologia Java em conjunto com o framework SpringBoot e MySQL para armazenamento de dados.",
+      "moreinfo": "Mais informações nos links abaixo",
+      "github": "Github",
+      "documentation": "Documentação"
     }
   }
 }
