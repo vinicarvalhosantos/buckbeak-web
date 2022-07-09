@@ -1,44 +1,54 @@
 [
   {
-    "name": "buckbeakweb",
-    "image": "/imgs/buckbeak-web.png",
-    "github": "https://github.com/vinicarvalhosantos/buckbeak-web",
-    "documentation": "https://google.com"
+    "title": "API's",
+    "projects": [
+      {
+        "name": "naginiapi",
+        "image": "/imgs/nagini-api.jpg",
+        "github": "https://github.com/vinicarvalhosantos/nagini-api",
+        "documentation": "https://google.com"
+      },
+      {
+        "name": "fawkesapi",
+        "image": "/imgs/fawkes-api.jpg",
+        "github": "https://github.com/vinicarvalhosantos/fawkes-api",
+        "documentation": "https://google.com"
+      },
+      {
+        "name": "marvelapi",
+        "image": "/imgs/marvel-api.jpg",
+        "github": "https://github.com/vinicarvalhosantos/marvel-api",
+        "documentation": "https://google.com"
+      },
+      {
+        "name": "nonsfwcontentapi",
+        "image": "/imgs/no-nsfw-content.jpg",
+        "github": "https://github.com/vinicarvalhosantos/no-nsfw-content-api",
+        "documentation": "https://google.com"
+      },
+      {
+        "name": "nonsfwcontentapiplus",
+        "image": "/imgs/no-nsfw-content.jpg",
+        "github": "https://github.com/vinicarvalhosantos/no-nsfw-content-api-plus",
+        "documentation": "https://google.com"
+      }
+    ]
   },
   {
-    "name": "naginiweb",
-    "image": "/imgs/nagini-web.jpeg",
-    "github": "https://github.com/vinicarvalhosantos/nagini-web",
-    "documentation": "https://google.com"
-  },
-  {
-    "name": "naginiapi",
-    "image": "/imgs/nagini-api.jpg",
-    "github": "https://github.com/vinicarvalhosantos/nagini-api",
-    "documentation": "https://google.com"
-  },
-  {
-    "name": "fawkesapi",
-    "image": "/imgs/fawkes-api.jpg",
-    "github": "https://github.com/vinicarvalhosantos/fawkes-api",
-    "documentation": "https://google.com"
-  },
-  {
-    "name": "marvelapi",
-    "image": "/imgs/marvel-api.jpg",
-    "github": "https://github.com/vinicarvalhosantos/marvel-api",
-    "documentation": "https://google.com"
-  },
-  {
-    "name": "nonsfwcontentapi",
-    "image": "/imgs/no-nsfw-content.jpg",
-    "github": "https://github.com/vinicarvalhosantos/no-nsfw-content-api",
-    "documentation": "https://google.com"
-  },
-  {
-    "name": "nonsfwcontentapiplus",
-    "image": "/imgs/no-nsfw-content.jpg",
-    "github": "https://github.com/vinicarvalhosantos/no-nsfw-content-api-plus",
-    "documentation": "https://google.com"
+    "title": "WEB's",
+    "projects": [
+      {
+        "name": "buckbeakweb",
+        "image": "/imgs/buckbeak-web.png",
+        "github": "https://github.com/vinicarvalhosantos/buckbeak-web",
+        "documentation": "https://google.com"
+      },
+      {
+        "name": "naginiweb",
+        "image": "/imgs/nagini-web.jpeg",
+        "github": "https://github.com/vinicarvalhosantos/nagini-web",
+        "documentation": "https://google.com"
+      }
+    ]
   }
 ]

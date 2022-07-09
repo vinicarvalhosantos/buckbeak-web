@@ -8,11 +8,11 @@
   },
   "projects": {
     "title": "Projects",
-    "description": "So, that's my projects and I'm proud of each of them! I'm a very Harry Potter's fan guy, sou will be normal see a lot of references of it :). All my API's can be tested by yourself, you just have to get an access token that will be valid for 2 hours by clicking in the button bellow and be free to test any of my API's by clicking on \"documentation\" button.",
+    "description": "So, that's my projects and I'm proud of each of them! I'm a very Harry Potter's fan guy, sou will be normal see a lot of references of it :). My projects are divided by three sections, the backend section that are all my APIs, the frontend section that are all my \"websites\" and the bots section that are all the bots created by me. All my API's can be tested by yourself, you just have to get an access token that will be valid for 2 hours by clicking in the button bellow and be free to test any of my API's by clicking on \"documentation\" button.",
     "tokenbutton": "Access Token",
     "canvas": {
       "title": "Get an Access Token",
-      "description": "To get an access token is pretty easy. All you have to do is fill the form bellow and we will send you a token to your e-email, your token will be valid for 2 (two) hours. Don't worry, I won't use your informations for nothing, this is just to keep sure that my API's will not be used other than testing.",
+      "description": "To get an access token is pretty easy. All you have to do is fill the form bellow and we will send you a token to your e-email, your token will be valid for 2 (two) hours. Don't worry, I won't use your informations for nothing, this is just to keep sure that my API's will not be used for other reason than testing.",
       "form": {
         "name": "Your name:",
         "nameplaceholder": "Enter with your name",
